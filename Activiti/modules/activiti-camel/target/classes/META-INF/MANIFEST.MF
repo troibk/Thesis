@@ -1,0 +1,38 @@
+Manifest-Version: 1.0
+Bundle-Description: BPM and workflow engine
+Implementation-Title: Activiti
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-SymbolicName: org.activiti.camel
+Implementation-Version: 5.22.0
+Built-By: VIET
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1504765348202
+Bundle-Vendor: Alfresco
+Import-Package: org.activiti.bpmn.model,org.activiti.camel,org.activit
+ i.camel.impl,org.activiti.engine;version="[5.22,6)",org.activiti.engi
+ ne.delegate;version="[5.22,6)",org.activiti.engine.impl.bpmn.behavior
+ ;version="[5.22,6)",org.activiti.engine.impl.bpmn.helper;version="[5.
+ 22,6)",org.activiti.engine.impl.cfg;version="[5.22,6)",org.activiti.e
+ ngine.impl.context;version="[5.22,6)",org.activiti.engine.impl.persis
+ tence.entity;version="[5.22,6)",org.activiti.engine.impl.pvm;version=
+ "[5.22,6)",org.activiti.engine.impl.pvm.delegate;version="[5.22,6)",o
+ rg.activiti.engine.runtime;version="[5.22,6)",org.activiti.osgi;resol
+ ution:=optional,org.activiti.spring,org.apache.camel;version="[2.17,3
+ )",org.apache.camel.impl;version="[2.17,3)",org.apache.camel.spi;vers
+ ion="[2.17,3)",org.apache.camel.util;version="[2.17,3)",org.apache.co
+ mmons.lang3;version="[3.3,4)",org.springframework.context
+Tool: Bnd-0.0.357
+Export-Package: org.activiti.camel.impl;uses:="org.activiti.camel",org
+ .activiti.camel;uses:="org.activiti.engine,org.apache.camel,org.apach
+ e.camel.impl,org.apache.camel.spi,org.apache.camel.util,org.apache.co
+ mmons.lang3,org.activiti.engine.impl.persistence.entity,org.activiti.
+ engine.runtime,org.activiti.engine.impl.context,org.activiti.engine.i
+ mpl.bpmn.behavior,org.activiti.engine.impl.cfg,org.activiti.engine.im
+ pl.pvm.delegate,org.activiti.engine.impl.pvm,org.activiti.engine.dele
+ gate,org.springframework.context,org.activiti.spring,org.activiti.eng
+ ine.impl.bpmn.helper,org.activiti.bpmn.model"
+Bundle-Version: 5.22.0
+Bundle-Name: Activiti - Camel
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_131
+

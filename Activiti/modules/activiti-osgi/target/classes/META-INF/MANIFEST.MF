@@ -1,0 +1,42 @@
+Manifest-Version: 1.0
+Bundle-Description: BPM and workflow engine
+Implementation-Title: Activiti
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-SymbolicName: activiti-osgi
+Implementation-Version: 5.22.0
+Built-By: VIET
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1504765330799
+Bundle-Vendor: Alfresco
+Import-Package: javax.script,javax.sql,javax.xml.parsers,javax.xml.tra
+ nsform,javax.xml.transform.dom,javax.xml.transform.stream,org.activit
+ i.engine;version="[5.22,6)",org.activiti.engine.delegate;version="[5.
+ 22,6)",org.activiti.engine.impl;version="[5.22,6)",org.activiti.engin
+ e.impl.cfg;version="[5.22,6)",org.activiti.engine.impl.el;version="[5
+ .22,6)",org.activiti.engine.impl.javax.el;version="[5.22,6)",org.acti
+ viti.engine.impl.pvm.delegate;version="[5.22,6)",org.activiti.engine.
+ impl.scripting;version="[5.22,6)",org.activiti.engine.repository;vers
+ ion="[5.22,6)",org.activiti.osgi;resolution:=optional,org.activiti.os
+ gi.blueprint,org.apache.felix.fileinstall;version="[3.5,4)";resolutio
+ n:=optional,org.osgi.framework;version="[1.8,2)",org.osgi.service.blu
+ eprint.container;version="[1.0,2)",org.osgi.service.url;version="[1.0
+ ,2)",org.osgi.util.tracker;version="[1.4,2)",org.slf4j;version="[1.7,
+ 2)",org.w3c.dom,org.xml.sax
+Tool: Bnd-0.0.357
+Export-Package: org.activiti.osgi;uses:="org.osgi.framework,org.slf4j,
+ org.apache.felix.fileinstall,org.osgi.service.url,org.w3c.dom,org.xml
+ .sax,javax.xml.parsers,javax.xml.transform.dom,javax.xml.transform,ja
+ vax.xml.transform.stream,org.osgi.util.tracker,javax.script,org.activ
+ iti.engine,org.activiti.engine.repository,org.activiti.engine.delegat
+ e,org.activiti.engine.impl.scripting",org.activiti.osgi.blueprint;use
+ s:="org.activiti.engine.impl.javax.el,org.osgi.service.blueprint.cont
+ ainer,org.activiti.engine.impl.pvm.delegate,org.activiti.engine.deleg
+ ate,org.slf4j,org.osgi.framework,org.activiti.engine,javax.sql,org.ac
+ tiviti.engine.impl.cfg,org.activiti.engine.impl,org.activiti.engine.i
+ mpl.el,org.activiti.osgi,org.activiti.engine.impl.scripting"
+Bundle-Version: 5.22.0
+Bundle-Name: Activiti - OSGi
+Bundle-Activator: org.activiti.osgi.Activator
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_131
+
