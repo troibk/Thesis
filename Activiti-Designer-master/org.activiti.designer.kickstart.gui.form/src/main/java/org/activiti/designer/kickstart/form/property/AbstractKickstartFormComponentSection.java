@@ -165,11 +165,7 @@ public abstract class AbstractKickstartFormComponentSection extends GFPropertySe
     }
   }
 
-  @Override
-protected IDiagramEditor getDiagramEditor() {
-	// TODO Auto-generated method stub
-	return super.getDiagramEditor();
-}
+
 
 @Override
   public final void createControls(final Composite parent, TabbedPropertySheetPage aTabbedPropertySheetPage) {
